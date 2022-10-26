@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+    #test{
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+    }
+</style>
+    </head>
+    <body>
+        <div id="test"></div>
+    <script>
+    // setTimeout(timer, 1000)
+    // function timer() {
+    //     console.log("set timeout function called")
+    // }
+setTimeout(anim,2000)
+function anim(){
+    console.log("anim")
+    var division=document.getElementById("test")
+    console.log(division)
+    division.style.width="200px"
+    division.style.backgroundColor="pink"
+}
+    </script>
+    </body>
+</html>
